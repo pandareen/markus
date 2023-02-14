@@ -1,0 +1,312 @@
+[
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/Swagger_autogen/mocs_compilation.cpp.o -c /app/Swagger/Swagger_autogen/mocs_compilation.cpp",
+  "file": "/app/Swagger/Swagger_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/container/List.cpp.o -c /app/Swagger/container/List.cpp",
+  "file": "/app/Swagger/container/List.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/SwaggerObject.cpp.o -c /app/Swagger/SwaggerObject.cpp",
+  "file": "/app/Swagger/SwaggerObject.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OperationFactory.cpp.o -c /app/Swagger/OperationFactory.cpp",
+  "file": "/app/Swagger/OperationFactory.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/SchemaList.cpp.o -c /app/Swagger/OpenApi/Schema/SchemaList.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/SchemaList.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/Schema.cpp.o -c /app/Swagger/OpenApi/Schema/Schema.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/Schema.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/Object/Object.cpp.o -c /app/Swagger/OpenApi/Schema/Object/Object.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/Object/Object.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/Object/OneOf.cpp.o -c /app/Swagger/OpenApi/Schema/Object/OneOf.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/Object/OneOf.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/Object/AnyOf.cpp.o -c /app/Swagger/OpenApi/Schema/Object/AnyOf.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/Object/AnyOf.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/Object/AllOf.cpp.o -c /app/Swagger/OpenApi/Schema/Object/AllOf.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/Object/AllOf.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/Factory/SchemaFactory.cpp.o -c /app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/Factory/FieldFactory.cpp.o -c /app/Swagger/OpenApi/Schema/Factory/FieldFactory.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/Factory/FieldFactory.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/FieldList.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/FieldList.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/FieldList.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/WriteOnly.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/WriteOnly.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/WriteOnly.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Summary.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Summary.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Summary.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Type.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Type.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Type.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/ReadOnly.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/ReadOnly.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/ReadOnly.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Pattern.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Pattern.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Pattern.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/MinLength.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/MinLength.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/MinLength.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/MultipleOf.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/MultipleOf.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/MultipleOf.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/MaxLength.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/MaxLength.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/MaxLength.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Min.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Min.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Min.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Max.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Max.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Max.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Items.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Items.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Items.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Enum.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Enum.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Enum.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Format.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Format.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Format.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Description.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Description.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Description.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/Field/Default.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/Field/Default.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/Field/Default.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/DynamicField/DynamicField.cpp.o -c /app/Swagger/OpenApi/Schema/DynamicField/DynamicField.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/DynamicField/DynamicField.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/ConvertError.cpp.o -c /app/Swagger/OpenApi/Schema/ConvertError.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/ConvertError.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Schema/Array.cpp.o -c /app/Swagger/OpenApi/Schema/Array.cpp",
+  "file": "/app/Swagger/OpenApi/Schema/Array.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Response/Responses.cpp.o -c /app/Swagger/OpenApi/Response/Responses.cpp",
+  "file": "/app/Swagger/OpenApi/Response/Responses.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Response/ResponsesFactory.cpp.o -c /app/Swagger/OpenApi/Response/ResponsesFactory.cpp",
+  "file": "/app/Swagger/OpenApi/Response/ResponsesFactory.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Response/ResponseFactory.cpp.o -c /app/Swagger/OpenApi/Response/ResponseFactory.cpp",
+  "file": "/app/Swagger/OpenApi/Response/ResponseFactory.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Response/Response.cpp.o -c /app/Swagger/OpenApi/Response/Response.cpp",
+  "file": "/app/Swagger/OpenApi/Response/Response.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/RequestBody/RequestBodyFactory.cpp.o -c /app/Swagger/OpenApi/RequestBody/RequestBodyFactory.cpp",
+  "file": "/app/Swagger/OpenApi/RequestBody/RequestBodyFactory.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/RequestBody/RequestBody.cpp.o -c /app/Swagger/OpenApi/RequestBody/RequestBody.cpp",
+  "file": "/app/Swagger/OpenApi/RequestBody/RequestBody.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Path/PathRoute.cpp.o -c /app/Swagger/OpenApi/Path/PathRoute.cpp",
+  "file": "/app/Swagger/OpenApi/Path/PathRoute.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Path/Paths.cpp.o -c /app/Swagger/OpenApi/Path/Paths.cpp",
+  "file": "/app/Swagger/OpenApi/Path/Paths.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Path/PathFragment.cpp.o -c /app/Swagger/OpenApi/Path/PathFragment.cpp",
+  "file": "/app/Swagger/OpenApi/Path/PathFragment.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Path/Path.cpp.o -c /app/Swagger/OpenApi/Path/Path.cpp",
+  "file": "/app/Swagger/OpenApi/Path/Path.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Path/PathFactory.cpp.o -c /app/Swagger/OpenApi/Path/PathFactory.cpp",
+  "file": "/app/Swagger/OpenApi/Path/PathFactory.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Path/EventFactory.cpp.o -c /app/Swagger/OpenApi/Path/EventFactory.cpp",
+  "file": "/app/Swagger/OpenApi/Path/EventFactory.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Path/Event.cpp.o -c /app/Swagger/OpenApi/Path/Event.cpp",
+  "file": "/app/Swagger/OpenApi/Path/Event.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Path/Callbacks.cpp.o -c /app/Swagger/OpenApi/Path/Callbacks.cpp",
+  "file": "/app/Swagger/OpenApi/Path/Callbacks.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Parameter/Query.cpp.o -c /app/Swagger/OpenApi/Parameter/Query.cpp",
+  "file": "/app/Swagger/OpenApi/Parameter/Query.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Parameter/PathParameter.cpp.o -c /app/Swagger/OpenApi/Parameter/PathParameter.cpp",
+  "file": "/app/Swagger/OpenApi/Parameter/PathParameter.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Parameter/ParameterFactory.cpp.o -c /app/Swagger/OpenApi/Parameter/ParameterFactory.cpp",
+  "file": "/app/Swagger/OpenApi/Parameter/ParameterFactory.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Parameter/Header.cpp.o -c /app/Swagger/OpenApi/Parameter/Header.cpp",
+  "file": "/app/Swagger/OpenApi/Parameter/Header.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Parameter/Parameter.cpp.o -c /app/Swagger/OpenApi/Parameter/Parameter.cpp",
+  "file": "/app/Swagger/OpenApi/Parameter/Parameter.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Parameter/Cookie.cpp.o -c /app/Swagger/OpenApi/Parameter/Cookie.cpp",
+  "file": "/app/Swagger/OpenApi/Parameter/Cookie.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Operation.cpp.o -c /app/Swagger/OpenApi/Operation.cpp",
+  "file": "/app/Swagger/OpenApi/Operation.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/OpenApi.cpp.o -c /app/Swagger/OpenApi/OpenApi.cpp",
+  "file": "/app/Swagger/OpenApi/OpenApi.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Information/Server.cpp.o -c /app/Swagger/OpenApi/Information/Server.cpp",
+  "file": "/app/Swagger/OpenApi/Information/Server.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Information/License.cpp.o -c /app/Swagger/OpenApi/Information/License.cpp",
+  "file": "/app/Swagger/OpenApi/Information/License.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Information/Info.cpp.o -c /app/Swagger/OpenApi/Information/Info.cpp",
+  "file": "/app/Swagger/OpenApi/Information/Info.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Information/Contact.cpp.o -c /app/Swagger/OpenApi/Information/Contact.cpp",
+  "file": "/app/Swagger/OpenApi/Information/Contact.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/OpenApi/Components.cpp.o -c /app/Swagger/OpenApi/Components.cpp",
+  "file": "/app/Swagger/OpenApi/Components.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/IJson.cpp.o -c /app/Swagger/IJson.cpp",
+  "file": "/app/Swagger/IJson.cpp"
+},
+{
+  "directory": "/app/Swagger",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -DSwagger_EXPORTS -I/app/Swagger/Swagger_autogen/include -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -fPIC -pthread -std=gnu++17 -o CMakeFiles/Swagger.dir/container/Map.cpp.o -c /app/Swagger/container/Map.cpp",
+  "file": "/app/Swagger/container/Map.cpp"
+},
+{
+  "directory": "/app/Swagger/test",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -I/app/Swagger/test/SwaggerTest_autogen/include -I/app/Swagger/test/.. -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -pthread -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/SwaggerTest.dir/SwaggerTest_autogen/mocs_compilation.cpp.o -c /app/Swagger/test/SwaggerTest_autogen/mocs_compilation.cpp",
+  "file": "/app/Swagger/test/SwaggerTest_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/app/Swagger/test",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -I/app/Swagger/test/SwaggerTest_autogen/include -I/app/Swagger/test/.. -I/app/Swagger/.. -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore -isystem /opt/Qt/6.4.0/gcc_64/include -isystem /opt/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0 -isystem /opt/Qt/6.4.0/gcc_64/include/QtCore/6.4.0/QtCore -fPIC -pthread -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/SwaggerTest.dir/test.cpp.o -c /app/Swagger/test/test.cpp",
+  "file": "/app/Swagger/test/test.cpp"
+}
+]
