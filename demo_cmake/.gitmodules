@@ -1,0 +1,19 @@
+[submodule "deps/Framework"]
+	path = deps/Framework
+	url = https://github.com/XERGER/Framework
+[submodule "deps/Client"]
+	path = deps/Client
+	url = https://github.com/XERGER/Client
+[submodule "deps/vcpkg"]
+	path = deps/vcpkg
+	url = https://github.com/XERGER/vcpkg.git
+[submodule "deps/llvm-project"]
+	path = deps/llvm-project
+	url = https://github.com/llvm/llvm-project.git
+	shallow = true
+[submodule "deps/include-what-you-use"]
+	path = deps/include-what-you-use
+	url = https://github.com/include-what-you-use/include-what-you-use.git
+[submodule "deps/quazip"]
+	path = deps/quazip
+	url = https://github.com/XERGER/quazip.git

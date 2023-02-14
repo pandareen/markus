@@ -1,0 +1,21 @@
+﻿set(
+    CMAKE_MODULE_PATH
+    ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake
+)
+message("${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+
+set( CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/debug/bin/ )
+set( CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/debug/lib/ )
+set( CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/release/bin )
+set( CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/release/lib )
+
+if (WIN32)
+    set(
+        CMAKE_PREFIX_PATH
+        ${CMAKE_PREFIX_PATH} "C:/vcpkg/installed/x64-windows"
+    )
+endif()
+
+message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")
+
+#/app/deps/InformationServer/cmake /app/deps/InformationServer/cmake

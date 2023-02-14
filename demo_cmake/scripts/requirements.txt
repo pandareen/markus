@@ -1,0 +1,4 @@
+###### Requirements without Version Specifiers ######
+docker
+humanize
+#pip install -r requirements.txt

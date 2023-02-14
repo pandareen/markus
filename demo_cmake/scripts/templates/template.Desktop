@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=${name}
+Comment=${comment}
+Icon=${icon}
+Exec=${exec}
+GenericName=${GenericName}
+Categories=${categories}
+Terminal=${terminal}

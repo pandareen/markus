@@ -1,0 +1,21 @@
+version: '3.7'
+services:
+  database:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - 127.0.0.1:3306:3306
+    volumes:
+      - db:/var/run/mysqld
+      - .:/app:ro
+    environment:
+      MYSQL_ROOT_PASSWORD: DoesntMatter
+  informationserver:
+    image: informationserver:1.0.0
+    restart: always
+    volumes:
+      - .:/app:rw
+      - db:/var/run/mysqld
+volumes:
+  db:

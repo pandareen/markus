@@ -1,0 +1,29 @@
+version: '3.7'
+services:
+  farm:
+    build:
+      context: docker
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app:rw
+      - db:/var/run/mysqld
+  informationserver:
+    image: informationserver:1.0.0
+    restart: always
+    volumes:
+      - db:/var/run/mysqld
+  database:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - 127.0.0.1:3306:3306
+    volumes:
+      - db:/var/run/mysqld
+      - .:/app:ro
+      - ./tmp/cache:/app/tmp/cache:rw
+    environment:
+      MYSQL_ROOT_PASSWORD: DoesntMatter
+
+volumes:
+  db:

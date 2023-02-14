@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/swagger/static/css/main.4c50dc73.css",
+    "main.js": "/swagger/static/js/main.03064ef7.js",
+    "static/js/787.a69ae5b5.chunk.js": "/swagger/static/js/787.a69ae5b5.chunk.js",
+    "index.html": "/swagger/index.html",
+    "main.4c50dc73.css.map": "/swagger/static/css/main.4c50dc73.css.map",
+    "main.03064ef7.js.map": "/swagger/static/js/main.03064ef7.js.map",
+    "787.a69ae5b5.chunk.js.map": "/swagger/static/js/787.a69ae5b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c50dc73.css",
+    "static/js/main.03064ef7.js"
+  ]
+}

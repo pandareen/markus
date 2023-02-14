@@ -1,0 +1,83 @@
+FROM ubuntu:latest
+MAINTAINER Sandesh
+
+RUN apt-get update -q
+
+#Install Dependencies
+RUN apt-get -qy install         \
+    build-essential             \
+	git \
+	ca-certificates \
+    clang-15                       \
+    ninja-build \
+    cmake                       \
+    libclang-15-dev		\
+    libncurses-dev              \
+    linux-libc-dev		\
+    llvm-15-dev			\
+    make                        \
+    subversion			\
+	clazy \
+    wget \
+	clang-tidy \
+	qt6-base-dev \
+	qt6-base-private-dev \
+	libgtest-dev \
+    libgl1-mesa-dev \
+    --no-install-recommends
+
+#Checkout IWYU and switch the banch clang_3.4
+RUN git clone https://github.com/include-what-you-use/include-what-you-use
+
+ENV CC clang
+ENV CXX clang++
+ENV CMAKE_C_COMPILER clang
+ENV CMAKE_CXX_COMPILER clazy
+
+#Configure IWYU
+RUN cd include-what-you-use && git checkout clang_15 && cd .. && mkdir build && cd build && cmake -G "Unix Makefiles" -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DCMAKE_PREFIX_PATH=/usr/lib/llvm-15 ../include-what-you-use && make && make install
+
+
+# RUN git clone git://code.qt.io/qt/qt5.git qt6 && cd qt6 && git checkout stable
+# RUN cd qt6 && perl init-repository
+
+
+# RUN echo $(ls -lht /usr/lib/llvm-15/bin/)
+ENV CC /usr/lib/llvm-15/bin/clang
+ENV CXX /usr/lib/llvm-15/bin/clang++
+ENV CMAKE_C_COMPILER /usr/lib/llvm-15/bin/clang
+ENV CMAKE_CXX_COMPILER /usr/lib/llvm-15/bin/clang++
+
+# RUN git --version
+
+# RUN mkdir qt6-build && cd qt6-build && ../qt6/configure --prefix=/opt/Qt6/ && cmake --build  .
+# RUN cmake -DCMAKE_PREFIX_PATH=/usr/lib/llvm-15 -G Ninja --install .
+
+RUN wget https://download.qt.io/official_releases/qt/6.4/6.4.0/single/qt-everywhere-src-6.4.0.tar.xz
+RUN tar xf qt-everywhere-src-6.4.0.tar.xz
+
+
+RUN apt-get -qy install         \
+        llvm-13-dev	 \
+        libclang-13-dev		\
+    --no-install-recommends
+
+RUN cd qt-everywhere-src-6.4.0 && ./configure -prefix /usr/local/Qt6 && cmake --build .
+RUN sudo cmake --install .
+
+COPY hello.cc /data/hello.cc
+COPY Swagger/ /data/Swagger/
+
+RUN include-what-you-use /data/hello.cc
+RUN clang-tidy /data/hello.cc
+RUN clazy /data/hello.cc
+
+#RUN clang-tidy /data/Swagger/SwaggerObject.h
+# RUN cd /data/Swagger/ && cmake -G "Unix Makefiles" -DCMAKE_CXX=include-what-you-use -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DCMAKE_PREFIX_PATH=/usr/lib/llvm-15  -DCMAKE_CXXFLAGS="-Xiwyu --error_always" 
+# RUN cd /data/Swagger/ && export QT_SELECT=qt6 && qmake -spec linux-clang QMAKE_CXX="clazy"
+#RUN cd /data/Swagger/ && cmake -G "Unix Makefiles" -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DCMAKE_PREFIX_PATH=/usr/lib/llvm-15  -DCMAKE_CXXFLAGS="-Xiwyu --error_always" 
+#RUN include-what-you-use /data/Swagger/SwaggerObject.h
+
+#RUN echo $(ls -lah /usr/include/x86_64-linux-gnu/qt6/)
+
+
