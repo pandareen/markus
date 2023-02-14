@@ -7,4 +7,9 @@ services:
       # dockerfile: Dockerfile
     volumes:
       - C:\Users\h264\testscripts\markus:/app/:rw
-    command: tail -F anything
+    entrypoint: ["/bin/sh","-c"]
+    command:
+    - |
+       cd /app/Swagger/ && export QT_SELECT=qt6 && cmake -G "Unix Makefiles" -DCMAKE_PREFIX_PATH=/usr/lib/llvm-10 -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_CXX=clang++ -DCMAKE_EXPORT_COMPILE_COMMANDS=ON . && find . -name "*cpp" | xargs clang-tidy --export-fixes=/app/clang-tidy-fixes.yaml -p compile_commands.json
+       cd /app/Swagger/ && cmake -DCMAKE_PREFIX_PATH=/usr/lib/llvm-10 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON . && iwyu_tool.py -p . | tee /app/iwyu-fixes.yaml
+       cd /app/Swagger/ && export QT_SELECT=qt6 && cmake -G "Unix Makefiles" -DCMAKE_PREFIX_PATH=/usr/lib/llvm-10 -DCMAKE_CXX_COMPILER=clazy -DCMAKE_CXX=clazy -DCMAKE_EXPORT_COMPILE_COMMANDS=ON . && find . -name "*cpp" | xargs clazy-standalone -checks=level2 -export-fixes=/app/clazy-fixes.yaml -p compile_commands.json
