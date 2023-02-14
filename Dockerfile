@@ -3,7 +3,7 @@ FROM stateoftheartio/qt6:6.4-gcc-aqt
 USER root
 RUN apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-  clang-tidy libclang-10-dev python file appstream gnupg2 libgl-dev libvulkan-dev wget zlib1g-dev python3-pip clazy libgtest-dev cmake clang lldb lld build-essential libglvnd-dev libgl1-mesa-dev
+  clang-tidy libclang-10-dev python file appstream gnupg2 libgl-dev libvulkan-dev wget zlib1g-dev python3-pip clazy libgtest-dev cmake lldb lld build-essential libglvnd-dev libgl1-mesa-dev
 
 # Setup GTest
 COPY GTest /usr/lib/x86_64-linux-gnu/cmake/GTest
