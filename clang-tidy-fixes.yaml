@@ -1,0 +1,407 @@
+---
+MainSourceFile:  '/app/Swagger/./CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         too many errors emitted, stopping now
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'redefinition of ''AllOf'''
+      FilePath:        '/app/Swagger/../Swagger/OpenApi/Schema/Object/AllOf.h'
+      FileOffset:      238
+      Replacements:    []
+    Notes:
+      - Message:         '''/app/Swagger/../Swagger/OpenApi/Schema/Object/AllOf.h'' included multiple times, additional include site here'
+        FilePath:        '/app/Swagger/container/../OpenApi/Schema/./Factory/SchemaFactory.h'
+        FileOffset:      381
+        Replacements:    []
+      - Message:         '''/app/Swagger/../Swagger/OpenApi/Schema/Object/AllOf.h'' included multiple times, additional include site here'
+        FilePath:        '/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp'
+        FileOffset:      446
+        Replacements:    []
+      - Message:         'unguarded header; consider using #ifdef guards or #pragma once'
+        FilePath:        '/app/Swagger/../Swagger/OpenApi/Schema/Object/AllOf.h'
+        FileOffset:      238
+        Replacements:    []
+  - DiagnosticName:  clang-analyzer-cplusplus.NewDeleteLeaks
+    DiagnosticMessage:
+      Message:         'Potential leak of memory pointed to by field ''_M_pi'''
+      FilePath:        '/app/Swagger/OpenApi/Path/PathFactory.cpp'
+      FileOffset:      1466
+      Replacements:    []
+    Notes:
+      - Message:         'Calling ''make_shared<Swagger::PathFragment, char const (&)[16]>'''
+        FilePath:        '/app/Swagger/OpenApi/Path/PathFactory.cpp'
+        FileOffset:      1060
+        Replacements:    []
+      - Message:         'Calling ''allocate_shared<Swagger::PathFragment, std::allocator<Swagger::PathFragment>, char const (&)[16]>'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr.h'
+        FileOffset:      23052
+        Replacements:    []
+      - Message:         'Calling constructor for ''shared_ptr<Swagger::PathFragment>'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr.h'
+        FileOffset:      22466
+        Replacements:    []
+      - Message:         'Calling constructor for ''__shared_ptr<Swagger::PathFragment, __gnu_cxx::_S_atomic>'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr.h'
+        FileOffset:      12195
+        Replacements:    []
+      - Message:         'Calling constructor for ''__shared_count<__gnu_cxx::_S_atomic>'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr_base.h'
+        FileOffset:      37473
+        Replacements:    []
+      - Message:         'Calling ''__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<Swagger::PathFragment, std::allocator<Swagger::PathFragment>, __gnu_cxx::_S_atomic> >>'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr_base.h'
+        FileOffset:      18617
+        Replacements:    []
+      - Message:         'Calling ''allocator_traits::allocate'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/allocated_ptr.h'
+        FileOffset:      3170
+        Replacements:    []
+      - Message:         'Calling ''new_allocator::allocate'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/alloc_traits.h'
+        FileOffset:      14965
+        Replacements:    []
+      - Message:         Taking false branch
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ext/new_allocator.h'
+        FileOffset:      3273
+        Replacements:    []
+      - Message:         Taking false branch
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ext/new_allocator.h'
+        FileOffset:      3354
+        Replacements:    []
+      - Message:         Memory is allocated
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ext/new_allocator.h'
+        FileOffset:      3583
+        Replacements:    []
+      - Message:         Returned allocated memory
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/alloc_traits.h'
+        FileOffset:      14965
+        Replacements:    []
+      - Message:         Returned allocated memory
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/allocated_ptr.h'
+        FileOffset:      3170
+        Replacements:    []
+      - Message:         Returned allocated memory
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr_base.h'
+        FileOffset:      18617
+        Replacements:    []
+      - Message:         'Returning from constructor for ''__shared_count<__gnu_cxx::_S_atomic>'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr_base.h'
+        FileOffset:      37473
+        Replacements:    []
+      - Message:         'Returning from constructor for ''__shared_ptr<Swagger::PathFragment, __gnu_cxx::_S_atomic>'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr.h'
+        FileOffset:      12195
+        Replacements:    []
+      - Message:         'Returning from constructor for ''shared_ptr<Swagger::PathFragment>'''
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr.h'
+        FileOffset:      22466
+        Replacements:    []
+      - Message:         Returned allocated memory
+        FilePath:        '/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/shared_ptr.h'
+        FileOffset:      23052
+        Replacements:    []
+      - Message:         Returned allocated memory
+        FilePath:        '/app/Swagger/OpenApi/Path/PathFactory.cpp'
+        FileOffset:      1060
+        Replacements:    []
+      - Message:         'Potential leak of memory pointed to by field ''_M_pi'''
+        FilePath:        '/app/Swagger/OpenApi/Path/PathFactory.cpp'
+        FileOffset:      1466
+        Replacements:    []
+  - DiagnosticName:  clang-diagnostic-deprecated-declarations
+    DiagnosticMessage:
+      Message:         '''convert'' is deprecated'
+      FilePath:        '/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp'
+      FileOffset:      1617
+      Replacements:    []
+    Notes:
+      - Message:         '''convert'' has been explicitly marked deprecated here'
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qvariant.h'
+        FileOffset:      6945
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED_VERSION_6_0'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      10768
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      7564
+        Replacements:    []
+      - Message:         'expanded from macro ''Q_DECL_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qcompilerdetection.h'
+        FileOffset:      35346
+        Replacements:    []
+  - DiagnosticName:  clang-diagnostic-deprecated-declarations
+    DiagnosticMessage:
+      Message:         '''convert'' is deprecated'
+      FilePath:        '/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp'
+      FileOffset:      4979
+      Replacements:    []
+    Notes:
+      - Message:         '''convert'' has been explicitly marked deprecated here'
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qvariant.h'
+        FileOffset:      6945
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED_VERSION_6_0'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      10768
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      7564
+        Replacements:    []
+      - Message:         'expanded from macro ''Q_DECL_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qcompilerdetection.h'
+        FileOffset:      35346
+        Replacements:    []
+  - DiagnosticName:  clang-diagnostic-deprecated-declarations
+    DiagnosticMessage:
+      Message:         '''convert'' is deprecated'
+      FilePath:        '/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp'
+      FileOffset:      5256
+      Replacements:    []
+    Notes:
+      - Message:         '''convert'' has been explicitly marked deprecated here'
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qvariant.h'
+        FileOffset:      6945
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED_VERSION_6_0'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      10768
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      7564
+        Replacements:    []
+      - Message:         'expanded from macro ''Q_DECL_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qcompilerdetection.h'
+        FileOffset:      35346
+        Replacements:    []
+  - DiagnosticName:  clang-diagnostic-deprecated-declarations
+    DiagnosticMessage:
+      Message:         '''convert'' is deprecated'
+      FilePath:        '/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp'
+      FileOffset:      5588
+      Replacements:    []
+    Notes:
+      - Message:         '''convert'' has been explicitly marked deprecated here'
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qvariant.h'
+        FileOffset:      6945
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED_VERSION_6_0'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      10768
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      7564
+        Replacements:    []
+      - Message:         'expanded from macro ''Q_DECL_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qcompilerdetection.h'
+        FileOffset:      35346
+        Replacements:    []
+  - DiagnosticName:  clang-diagnostic-deprecated-declarations
+    DiagnosticMessage:
+      Message:         '''convert'' is deprecated'
+      FilePath:        '/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp'
+      FileOffset:      5870
+      Replacements:    []
+    Notes:
+      - Message:         '''convert'' has been explicitly marked deprecated here'
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qvariant.h'
+        FileOffset:      6945
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED_VERSION_6_0'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      10768
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      7564
+        Replacements:    []
+      - Message:         'expanded from macro ''Q_DECL_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qcompilerdetection.h'
+        FileOffset:      35346
+        Replacements:    []
+  - DiagnosticName:  clang-diagnostic-unknown-escape-sequence
+    DiagnosticMessage:
+      Message:         'unknown escape sequence ''\s'''
+      FilePath:        '/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp'
+      FileOffset:      9398
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-unknown-escape-sequence
+    DiagnosticMessage:
+      Message:         'unknown escape sequence ''\S'''
+      FilePath:        '/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp'
+      FileOffset:      9400
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-deprecated-declarations
+    DiagnosticMessage:
+      Message:         '''convert'' is deprecated'
+      FilePath:        '/app/Swagger/OpenApi/Schema/Factory/SchemaFactory.cpp'
+      FileOffset:      9539
+      Replacements:    []
+    Notes:
+      - Message:         '''convert'' has been explicitly marked deprecated here'
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qvariant.h'
+        FileOffset:      6945
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED_VERSION_6_0'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      10768
+        Replacements:    []
+      - Message:         'expanded from macro ''QT_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+        FileOffset:      7564
+        Replacements:    []
+      - Message:         'expanded from macro ''Q_DECL_DEPRECATED'''
+        FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qcompilerdetection.h'
+        FileOffset:      35346
+        Replacements:    []
+  - DiagnosticName:  clang-diagnostic-parentheses
+    DiagnosticMessage:
+      Message:         using the result of an assignment as a condition without parentheses
+      FilePath:        '/app/Swagger/OpenApi/Schema/Object/AnyOf.cpp'
+      FileOffset:      495
+      Replacements:    []
+    Notes:
+      - Message:         place parentheses around the assignment to silence this warning
+        FilePath:        '/app/Swagger/OpenApi/Schema/Object/AnyOf.cpp'
+        FileOffset:      495
+        Replacements:
+          - FilePath:        '/app/Swagger/OpenApi/Schema/Object/AnyOf.cpp'
+            Offset:          490
+            Length:          0
+            ReplacementText: '('
+          - FilePath:        '/app/Swagger/OpenApi/Schema/Object/AnyOf.cpp'
+            Offset:          517
+            Length:          0
+            ReplacementText: ')'
+      - Message:         'use ''=='' to turn this assignment into an equality comparison'
+        FilePath:        '/app/Swagger/OpenApi/Schema/Object/AnyOf.cpp'
+        FileOffset:      495
+        Replacements:
+          - FilePath:        '/app/Swagger/OpenApi/Schema/Object/AnyOf.cpp'
+            Offset:          495
+            Length:          1
+            ReplacementText: '=='
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      20073
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      31930
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      32532
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      33435
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'expected '';'' after top level declarator'
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      33456
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      33552
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      33965
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      34388
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      34485
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      39580
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      39663
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      39774
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      44799
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'expected '';'' after top level declarator'
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      44820
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      46705
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'expected '';'' after top level declarator'
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      46729
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      46834
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'expected '';'' after top level declarator'
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      46855
+      Replacements:    []
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''Q_CORE_EXPORT'''
+      FilePath:        '/opt/Qt/6.4.0/gcc_64/include/QtCore/qglobal.h'
+      FileOffset:      46899
+      Replacements:    []
+...

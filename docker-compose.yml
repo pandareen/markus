@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  farm:
+    image: markus:latest
+    # build:
+      # context: docker
+      # dockerfile: Dockerfile
+    volumes:
+      - C:\Users\h264\testscripts\markus:/app/:rw
+    command: tail -F anything
